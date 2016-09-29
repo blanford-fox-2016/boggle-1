@@ -4,9 +4,41 @@
     <title>Boggle Game</title>
     <link media="screen" rel="stylesheet" type="text/css" href="boggle.css">
     <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="boggle.js"></script>
   </head>
   <body>
-    <h1>Let's create your boggle game</h1>
+    <h1>Mari membuat game boggle!</h1>
+<div class="boggle-board">
+  <span>Size </span><input value='4' disabled></input><span> x </span><input value='4' disabled></input>
+  <button onclick="Boggle.randomBoggleWord()">Shake</button>
+    <table id="myTable">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+
     <script type="text/javascript" src="boggle.js"></script>
   </body>
 </html>
